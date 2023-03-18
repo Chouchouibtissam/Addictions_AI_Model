@@ -1,7 +1,7 @@
 # Addictions_AI_Model
-#Description of model:
+# Description of model:
 In this project, I developed an AI model that filters positive and negative text and removes the negative one.
-#Working with a Clean Dataset:
+# Working with a Clean Dataset:
 In this project, I worked with a clean dataset that was obtained from GitHub. The dataset contained information on various , including their names, descriptions, prices, and ratings.
 
 Data Preprocessing:
@@ -19,5 +19,5 @@ Finally, we train the model for 5 epochs, with each batch passed through the mod
 
 The pretrained model is then saved to the pretrained-bert-binary-classification directory using the save_pretrained method of the model object.
 
-GitHub Link:
+# GitHub Link:
 https://github.com/dvaldez44/Reddit_Addiction
