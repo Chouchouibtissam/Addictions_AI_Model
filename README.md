@@ -19,22 +19,6 @@ Finally, we train the model for 5 epochs, with each batch passed through the mod
 
 The pretrained model is then saved to the pretrained-bert-binary-classification directory using the save_pretrained method of the model object.
 # Packages :
-'''bash import pandas as pd '''
-'''bash import json '''
-'''bash from sklearn.naive_bayes import MultinomialNB'''
-'''bash from sklearn.feature_extraction.text import TfidfVectorizer'''
-'''bash from sklearn.metrics import accuracy_score '''
-from sklearn.model_selection import train_test_split
-!pip install transformers
-import torch
-import numpy as np
-from transformers import BertTokenizer, BertForSequenceClassification, AdamW, get_linear_schedule_with_warmup
-import locale
-import torch.nn as nn
-from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler,random_split
-from sklearn.metrics import classification_repor
-import transformers
-from transformers import AdamW, BertConfig,get_linear_schedule_with_warmup
-'''
-# GitHub Link:
+pandas, json, sklearn, torch, numpy, transformers, locale,time,random,datetime, pickle
+# GitHub Link dataset:
 https://github.com/dvaldez44/Reddit_Addiction
